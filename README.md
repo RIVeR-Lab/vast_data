@@ -19,9 +19,8 @@ VAST: Visual and Spectral Terrain Classification in Unstructured Multi-Class Env
 - Images from downward facing cameras
 - Visible-Near Infrared spectrometer readings captured from a StellarNet BlueWave Spectrometer (350 - 1100 nm)
 - Snippets of IMU readings associated
-- Labels (numeric index 0-10)
 
-Each numeric index means all entries are associated. E.g. `0000001_img.jpg, 0000001_spec.npy, 0000001_imu.npy,0000001_label.npy` are all readings collected at the same time.
+Each numeric index means all entries are associated. E.g. `0000001_img.jpg, 0000001_spec.npy, 0000001_imu.npy` are all readings collected at the same time.
 ### How to Use?
 
 1. Clone the repo
